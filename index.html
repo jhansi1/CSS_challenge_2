@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" media="screen and (max-width:500px)" href="css/mobile-styles.css">
+  <link rel="stylesheet" media="screen and (min-width:501px)" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="content">
+
+    <header class="logo">
+      <img src="images/logo.svg" alt="">
+    </header>
+
+
+    <section class="base-apparel-hero">
+      <picture>
+        <source class="hero-desktop-image" media="(min-width: 501px)" srcset="images/hero-desktop.jpg">
+        <img class="hero-mobile-image" media="(max-width: 500px)"  src="images/hero-mobile.jpg" alt="hero-mobile-image">
+      </picture>
+    </section>
+
+    <section class="base-apparel-about">
+      <h1><span>We're</span><br>
+        coming <br> soon</h1>
+
+      <p>Hello fellow shoppers! We're currently building our new fashion store.
+        Add your email below to stay up-to-date with announcements and our launch deals.</p>
+
+      <form class="contact">
+          <input required class="email-details" type="email" name="email" placeholder="Email Address">
+          <input class="submit" type="submit" value="">
+      </form>
+    </section>
+
+  </div>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Jhansi Ponnada</a>.
+    </p>
+  </footer>
+
+
+
+</body>
+
+</html>
